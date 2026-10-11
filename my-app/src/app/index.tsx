@@ -3,6 +3,8 @@ import React from 'react'
 import Greet from '@/components/Greet'
 import AboutComponent from '@/components/AboutComponent'
 import ButtonComponents from '@/components/ButtonComponents'
+import ImageComponent from '@/components/ImageComponent'
+import CardComponent from '@/components/CardComponent'
 
 const index = () => {
   const aboutMe = {
@@ -17,9 +19,13 @@ const index = () => {
         Hello World my name is yuvraj singh rathore 
       </Text>
 
-      <Greet/> 
+      {/* <Greet/> 
       <AboutComponent about = {aboutMe}/>
       <ButtonComponents/>
+
+      <ImageComponent/> */}
+
+      <CardComponent/>
     </View>
   )
 }
