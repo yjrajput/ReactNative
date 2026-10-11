@@ -5,6 +5,7 @@ import AboutComponent from '@/components/AboutComponent'
 import ButtonComponents from '@/components/ButtonComponents'
 import ImageComponent from '@/components/ImageComponent'
 import CardComponent from '@/components/CardComponent'
+import DynamicContent from '@/components/DynamicContent'
 
 const index = () => {
   const aboutMe = {
@@ -15,9 +16,6 @@ const index = () => {
   }
   return (
     <View>
-      <Text>
-        Hello World my name is yuvraj singh rathore 
-      </Text>
 
       {/* <Greet/> 
       <AboutComponent about = {aboutMe}/>
@@ -25,7 +23,9 @@ const index = () => {
 
       <ImageComponent/> */}
 
-      <CardComponent/>
+      {/* <CardComponent/> */}
+
+      <DynamicContent/>
     </View>
   )
 }
