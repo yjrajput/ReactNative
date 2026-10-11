@@ -6,6 +6,9 @@ import ButtonComponents from '@/components/ButtonComponents'
 import ImageComponent from '@/components/ImageComponent'
 import CardComponent from '@/components/CardComponent'
 import DynamicContent from '@/components/DynamicContent'
+import InlineStyle from '@/components/styling/InlineStyle'
+import InternalStyling from '@/components/styling/InternalStyling'
+import ExternalStyling from '@/components/styling/ExternalStyling'
 
 const index = () => {
   const aboutMe = {
@@ -25,7 +28,10 @@ const index = () => {
 
       {/* <CardComponent/> */}
 
-      <DynamicContent/>
+      {/* <DynamicContent/> */}
+      {/* <InlineStyle/> */}
+      <InternalStyling/>
+      <ExternalStyling/>
     </View>
   )
 }
