@@ -9,6 +9,8 @@ import DynamicContent from '@/components/DynamicContent'
 import InlineStyle from '@/components/styling/InlineStyle'
 import InternalStyling from '@/components/styling/InternalStyling'
 import ExternalStyling from '@/components/styling/ExternalStyling'
+import LIstData from '@/components/Lists/LIstData'
+import ArrayOfObject from '@/components/Lists/ArrayOfObject'
 
 const index = () => {
   const aboutMe = {
@@ -30,8 +32,10 @@ const index = () => {
 
       {/* <DynamicContent/> */}
       {/* <InlineStyle/> */}
-      <InternalStyling/>
-      <ExternalStyling/>
+      {/* <InternalStyling/>
+      <ExternalStyling/> */}
+      <LIstData/>
+      <ArrayOfObject/>
     </View>
   )
 }
