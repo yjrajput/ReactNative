@@ -11,6 +11,7 @@ import InternalStyling from '@/components/styling/InternalStyling'
 import ExternalStyling from '@/components/styling/ExternalStyling'
 import LIstData from '@/components/Lists/LIstData'
 import ArrayOfObject from '@/components/Lists/ArrayOfObject'
+import ParentComponent from '@/components/Props/ParentComponent'
 
 const index = () => {
   const aboutMe = {
@@ -34,8 +35,9 @@ const index = () => {
       {/* <InlineStyle/> */}
       {/* <InternalStyling/>
       <ExternalStyling/> */}
-      <LIstData/>
-      <ArrayOfObject/>
+      {/* <LIstData/>
+      <ArrayOfObject/> */}
+      <ParentComponent/>
     </View>
   )
 }
