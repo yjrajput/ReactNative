@@ -12,6 +12,7 @@ import ExternalStyling from '@/components/styling/ExternalStyling'
 import LIstData from '@/components/Lists/LIstData'
 import ArrayOfObject from '@/components/Lists/ArrayOfObject'
 import ParentComponent from '@/components/Props/ParentComponent'
+import ConditionalStatement from '@/components/ConditionalRendering/ConditionalStatement'
 
 const index = () => {
   const aboutMe = {
@@ -37,7 +38,8 @@ const index = () => {
       <ExternalStyling/> */}
       {/* <LIstData/>
       <ArrayOfObject/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <ConditionalStatement isValid = {false}/>
     </View>
   )
 }
